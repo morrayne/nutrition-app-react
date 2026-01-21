@@ -1,0 +1,10 @@
+const path = require("path");
+
+module.exports = {
+  transformer: {
+    babelTransformerPath: require.resolve("tamagui/metro-transformer"),
+  },
+  resolver: {
+    sourceExts: ["js", "jsx", "ts", "tsx", "json", "mjs", "cjs"],
+  },
+};
